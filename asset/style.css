@@ -66,3 +66,38 @@ background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Ch
   height: 20px;
   align-items: center;
 }
+/* weather */
+.weather .weather-icon {
+  outline: 0;
+  border: 0;
+  width: 170px;
+  height: auto;
+}
+.weather h1 {
+  font-size: 50px;
+  font-weight: 10;
+  margin-top: -25px;
+
+}
+.weather h2 {
+  font-size: 30px;
+  font-weight: 40;
+  margin-top: -10px;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.col {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  width: 100px;
+  margin-right: 20px;
+}
+.col img {
+  width: 40px;
+  margin: 40px 10px;
+}

@@ -5,14 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="asset/style.css" />
-    <link rel="stylesheet" href="asset/fontawesome.min.css" />
     <title>Weather</title>
   </head>
   <body>
     <div class="container">
       <div class="search">
         <input type="search" placeholder="Enter city Name" spellcheck="false" />
-        <button><img src="asset/search-icon.webp" alt="" /></button>
+        <button><img src="asset/images/search-icon.webp" alt="" /></button>
+      </div>
+      <div class="weather">
+        <img src="asset/images/rain.png" alt="" class="weather-icon">
+        <h1 class="temp">40&#176C</h1>
+        <h2 class="city">Kolkata</h2>
+        <div class="details">
+            <div class="col">
+                <!-- Humidity -->
+                    <img src="asset/images/humidity.png" alt="">
+                    <div>
+                        <p class="humedity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+            </div>
+            <!-- Next col for wind -->
+            <div class="col">
+                <!-- Humidity -->
+                    <img src="asset/images/wind.png" alt="">
+                    <div>
+                        <p class="wind">50Km/h</p>
+                        <p>Wind</p>
+                    </div>
+            </div>
+        </div>
+      </div>
+      <div class="details">
+        .
       </div>
     </div>
     <script src="asset/script.js"></script>
