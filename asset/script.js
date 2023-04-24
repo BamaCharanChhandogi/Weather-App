@@ -39,7 +39,9 @@ async function checkWeather(city) {
     else if (data.weather[0].main == "Snow") {
         changeImage.src = "asset/images/snow.png";
     }
-    document.querySelector('.weather').style.display = "block";
+    // document.querySelector('.weather').style.display = "block";
+    document.querySelector('.weather').style.overflow= "visible";
+    document.querySelector('.weather').style.height= "400px";
 }
 //function call
 checkWeather();

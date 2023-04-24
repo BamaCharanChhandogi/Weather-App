@@ -100,13 +100,19 @@ background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Ch
   width: 40px;
   margin: 40px 10px;
 }
-.weather {
+/* .weather {
   display: none;
-}
+} */
 .error {
   font-size: 16px;
   padding: 10px;
   text-align: center;
   display: none;
   margin-top: 7px;
+}
+.weather{
+  height: 1px;
+  overflow: hidden;
+  transition-property: height;
+  transition-duration:3s;
 }
